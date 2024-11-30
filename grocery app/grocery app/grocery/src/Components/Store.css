@@ -1,0 +1,251 @@
+/* From Uiverse.io by akshat-patel28 */
+.button-center {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+/* From Uiverse.io by eslam-hany */
+.button-container {
+    display: flex;
+    background-color: rgba(0, 73, 144);
+    width: 550px;
+    height: 40px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px,
+        rgba(0, 73, 144, 0.5) 5px 10px 15px;
+    transition: all 0.5s;
+}
+
+.button-container:hover {
+    transform: scale(1.05);
+    transition: all 0.5s;
+}
+
+.button {
+    outline: 0 !important;
+    border: 0 !important;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+}
+
+.button:hover {
+    transform: translateY(-3px);
+}
+
+.icon {
+    font-size: 20px;
+}
+
+.product-container {
+    display: flex; /* Use flexbox to align items in a row */
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    justify-content: space-around; /* Space out the cards evenly */
+    gap: 20px; /* Space between the cards */
+    padding: 10px;
+  }
+  
+  /* Adjust the card size */
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 180px; /* Adjust the card width */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 10px;
+    padding: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  .card img {
+    width: 150px; /* Adjust the image size */
+    height: 150px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .card img:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+  }
+  
+  /* Card description styling */
+  .card-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+  }
+  
+  .card-description h6 {
+    font-size: 14px; /* Reduced font size */
+    margin: 5px 0;
+  }
+  
+  /* Optional: Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .product-container {
+      justify-content: center; /* Center items on smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .product-container {
+      flex-wrap: wrap; /* Allow wrapping on very small screens */
+    }
+  }
+
+  .search-input {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-left: 20px;
+    outline: none;
+  }
+  
+  .search-input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+
+  .navbar .form-inline {
+    width: 100%;
+    justify-content: flex-end;
+  }
+  
+  .navbar .form-control {
+    width: 200px;  /* Adjust width as needed */
+  }
+  
+  @media (max-width: 768px) {
+    .navbar .form-control {
+      width: 150px; /* Shrink the search bar on smaller screens */
+    }
+  }
+
+
+  .cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .cart-item-image {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .cart-item-name {
+    flex-grow: 1;
+  }
+  
+  .cart-item-price {
+    margin-right: 10px;
+  }
+  
+  .btn-danger {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn-danger:hover {
+    background-color: darkred;
+  }
+
+  .store-container {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.card {
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.card-description {
+    margin-top: 10px;
+}
+
+.card-description h6 {
+    margin: 5px 0;
+}
+
+.btn {
+    padding: 8px 16px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+/* Cart Section */
+.cart {
+    width: 100%;
+    padding: 20px;
+    background-color: #f8f9fa;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.cart h2 {
+    margin-bottom: 20px;
+}
+
+.cart .products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+  
+  

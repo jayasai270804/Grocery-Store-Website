@@ -1,0 +1,13 @@
+.home-container {
+    height: 100vh; /* Full viewport height */
+    background-image: url("https://img.freepik.com/free-photo/blurred-background-fruits-vegetables-arranged-supermarket-shelves_91128-3451.jpg");
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+  
+.text-center h1 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #fff; /* Ensure text is readable on the background */
+}

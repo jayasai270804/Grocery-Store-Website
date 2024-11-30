@@ -1,0 +1,56 @@
+{
+  "users": [
+    {
+      "id": "d774",
+      "username": "jayasaikatta",
+      "email": "jaya@gmail.com",
+      "password": "jayasaikatta",
+      "mobile": "9059586772",
+      "address": "vijayawada"
+    },
+    {
+      "id": "cbc4",
+      "username": "jayasai",
+      "email": "katta@gmail.com",
+      "password": "katta123",
+      "mobile": "1236547890",
+      "address": "pkl"
+    },
+    {
+      "id": "5c67",
+      "username": "kushwanth",
+      "email": "kushwanth@gmail.com",
+      "password": "kushwanth123",
+      "mobile": "9347110774",
+      "address": "guntur"
+    },
+    {
+      "id": "9557",
+      "username": "Rohit reddy",
+      "email": "rohitkumarreddy_tamma@srmap.edu.in",
+      "password": "rohit123",
+      "mobile": "6305307085",
+      "address": "Guntur"
+    }
+  ],
+  "products": [
+    {
+      "id": "2",
+      "title": "Mango",
+      "price": "20",
+      "category": "Fruits",
+      "images": [
+        "https://draxe.com/wp-content/uploads/2019/04/DrAxeMangoNutritionFB.jpg"
+      ]
+    },
+    {
+      "id": "f964",
+      "title": "Apple",
+      "price": "10",
+      "category": "Fruits",
+      "images": [
+        "https://www.bigbasket.com/media/uploads/p/l/40033817_11-fresho-apple-green-regular.jpg"
+      ]
+    }
+  ]
+}

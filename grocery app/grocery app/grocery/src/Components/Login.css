@@ -1,0 +1,87 @@
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("https://t3.ftcdn.net/jpg/08/56/62/12/360_F_856621298_xDKFa1QOyJmPljmMiWlwIfIzesanfohb.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .login-card{
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,.2);
+    backdrop-filter: blur(20px);
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px ;
+  }
+  
+  .login-card h1{
+    font-size: 36px;
+    text-align: center;
+  }
+  
+  .enter-columns{
+    display: flex;
+    flex-direction:column;
+  }
+  .login-card .input{
+    width: 90%;
+    height: 40px;
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+  }
+  .input input{
+    width: 93%;
+    height: 100%;
+    border-radius: 40px;
+    background:transparent;
+    outline: none;
+    border: 2px solid rgba(255,255,255,.2);
+    font-size: 15px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+  }
+  
+  .input input::placeholder{
+    color: #fff;
+  }
+  
+  .boot{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+  }
+  
+  
+  .r-f a{
+    color: #fff;
+    text-decoration: underline;
+  }
+  
+  .login-card button{
+    background-color: #fff;
+    color: #333;
+    font-size: 16px;
+    width: 70%;
+    height: 45px;
+    border-radius: 40px;
+    outline: none;
+    border: none;
+  }
+  .sub{
+    display: flex;
+    justify-content: center;
+  }
+  .sign-up{
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .sign-up a{
+    color: #fff;
+    text-decoration: underline;
+  }
