@@ -31,6 +31,22 @@
       "password": "rohit123",
       "mobile": "6305307085",
       "address": "Guntur"
+    },
+    {
+      "id": "e187",
+      "username": "kumar",
+      "email": "kumar@gmail.com",
+      "password": "kumar123",
+      "mobile": "9059586772",
+      "address": "vijayawada"
+    },
+    {
+      "id": "4f65",
+      "username": "jayasai1",
+      "email": "jayasai@gmail.com",
+      "password": "katta123",
+      "mobile": "9059586772",
+      "address": "vijayawada"
     }
   ],
   "products": [
